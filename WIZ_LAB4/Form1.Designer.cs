@@ -51,7 +51,7 @@
             // 
             // btnLoad
             // 
-            btnLoad.Location = new Point(21, 396);
+            btnLoad.Location = new Point(21, 389);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(166, 48);
             btnLoad.TabIndex = 1;
@@ -62,7 +62,7 @@
             // btnOnlyGreen
             // 
             btnOnlyGreen.BackColor = Color.FromArgb(192, 255, 192);
-            btnOnlyGreen.Location = new Point(21, 328);
+            btnOnlyGreen.Location = new Point(21, 327);
             btnOnlyGreen.Name = "btnOnlyGreen";
             btnOnlyGreen.Size = new Size(166, 48);
             btnOnlyGreen.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             rb90.AutoSize = true;
             rb90.Checked = true;
-            rb90.Location = new Point(21, 12);
+            rb90.Location = new Point(26, 28);
             rb90.Name = "rb90";
             rb90.Size = new Size(52, 24);
             rb90.TabIndex = 2;
@@ -85,7 +85,7 @@
             // rb180
             // 
             rb180.AutoSize = true;
-            rb180.Location = new Point(21, 42);
+            rb180.Location = new Point(26, 58);
             rb180.Name = "rb180";
             rb180.Size = new Size(60, 24);
             rb180.TabIndex = 3;
@@ -95,7 +95,7 @@
             // rb270
             // 
             rb270.AutoSize = true;
-            rb270.Location = new Point(21, 72);
+            rb270.Location = new Point(26, 88);
             rb270.Name = "rb270";
             rb270.Size = new Size(60, 24);
             rb270.TabIndex = 4;
@@ -105,7 +105,7 @@
             // btnRotate
             // 
             btnRotate.BackColor = Color.FromArgb(255, 128, 128);
-            btnRotate.Location = new Point(21, 102);
+            btnRotate.Location = new Point(21, 134);
             btnRotate.Name = "btnRotate";
             btnRotate.Size = new Size(166, 48);
             btnRotate.TabIndex = 5;
@@ -116,7 +116,7 @@
             // btnInvert
             // 
             btnInvert.BackColor = Color.FromArgb(192, 192, 255);
-            btnInvert.Location = new Point(21, 156);
+            btnInvert.Location = new Point(21, 197);
             btnInvert.Name = "btnInvert";
             btnInvert.Size = new Size(166, 48);
             btnInvert.TabIndex = 6;
@@ -127,7 +127,7 @@
             // btnUpsideDown
             // 
             btnUpsideDown.BackColor = Color.FromArgb(192, 192, 255);
-            btnUpsideDown.Location = new Point(21, 210);
+            btnUpsideDown.Location = new Point(21, 264);
             btnUpsideDown.Name = "btnUpsideDown";
             btnUpsideDown.Size = new Size(166, 48);
             btnUpsideDown.TabIndex = 7;
