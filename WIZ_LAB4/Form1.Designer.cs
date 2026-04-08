@@ -34,6 +34,8 @@
             rb180 = new RadioButton();
             rb270 = new RadioButton();
             btnRotate = new Button();
+            btnInvert = new Button();
+            btnUpsideDown = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -99,11 +101,35 @@
             btnRotate.UseVisualStyleBackColor = false;
             btnRotate.Click += btnRotate_Click;
             // 
+            // btnInvert
+            // 
+            btnInvert.BackColor = Color.FromArgb(192, 192, 255);
+            btnInvert.Location = new Point(21, 156);
+            btnInvert.Name = "btnInvert";
+            btnInvert.Size = new Size(166, 48);
+            btnInvert.TabIndex = 6;
+            btnInvert.Text = "Invert Colors";
+            btnInvert.UseVisualStyleBackColor = false;
+            btnInvert.Click += btnInvert_Click;
+            // 
+            // btnUpsideDown
+            // 
+            btnUpsideDown.BackColor = Color.FromArgb(192, 192, 255);
+            btnUpsideDown.Location = new Point(21, 210);
+            btnUpsideDown.Name = "btnUpsideDown";
+            btnUpsideDown.Size = new Size(166, 48);
+            btnUpsideDown.TabIndex = 7;
+            btnUpsideDown.Text = "Upside Down";
+            btnUpsideDown.UseVisualStyleBackColor = false;
+            btnUpsideDown.Click += btnUpsideDown_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(511, 450);
+            Controls.Add(btnUpsideDown);
+            Controls.Add(btnInvert);
             Controls.Add(btnRotate);
             Controls.Add(rb270);
             Controls.Add(rb180);
@@ -125,5 +151,7 @@
         private RadioButton rb180;
         private RadioButton rb270;
         private Button btnRotate;
+        private Button btnInvert;
+        private Button btnUpsideDown;
     }
 }

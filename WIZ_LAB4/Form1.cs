@@ -29,5 +29,29 @@ namespace WIZ_LAB4
             pictureBox1.Image = img;
             pictureBox1.Refresh();
         }
+
+        private void btnInvert_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image == null) return;
+            Bitmap bmp = new Bitmap(pictureBox1.Image);
+
+            for (int y = 0; y < bmp.Height; y++)
+            {
+                for (int x = 0; x < bmp.Width; x++)
+                {
+                    Color c = bmp.GetPixel(x, y);
+                    bmp.SetPixel(x, y, Color.FromArgb(255 - c.R, 255 - c.G, 255 - c.B));
+                }
+            }
+            pictureBox1.Image = bmp;
+        }
+
+        private void btnUpsideDown_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image == null) return;
+            Image img = pictureBox1.Image;
+            img.RotateFlip(RotateFlipType.RotateNoneFlipY);
+            pictureBox1.Image = img;
+        }
     }
 }
